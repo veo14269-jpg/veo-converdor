@@ -11,11 +11,18 @@
     <img alt="Licença MIT" src="https://img.shields.io/badge/Licen%C3%A7a-MIT-8B7CF6" />
     <img alt="GitHub Copilot" src="https://img.shields.io/badge/GitHub%20Copilot-000000?logo=githubcopilot&logoColor=white" />
   </p>
+  <p>
+    <a href="https://veo-convertor.veo14269.workers.dev/">
+      <img alt="Abrir site" src="https://img.shields.io/badge/🌐_Abrir_Conversor-0A0A0A?style=for-the-badge" />
+    </a>
+  </p>
 </div>
 
 ## Apresentação
 
 O **VEO Image Converter** é uma aplicação web gratuita para converter e redimensionar imagens sem enviá-las a um servidor. Adicione um arquivo ou um lote, escolha PNG, JPG ou JPEG e baixe cada resultado ou um arquivo ZIP.
+
+**Acesse agora:** [https://veo-convertor.veo14269.workers.dev/](https://veo-convertor.veo14269.workers.dev/)
 
 ## Funcionalidades
 
