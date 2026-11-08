@@ -1,143 +1,106 @@
 <div align="center">
-
-<img src="./public/logo.svg" width="80" height="80" alt="VEO Image Converter" />
-
-# VEO Image Converter
-
-**Conversão de imagens privada, rápida e 100% no navegador.**
-
-<br/>
-
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![License](https://img.shields.io/badge/License-MIT-8B7CF6?style=for-the-badge)](./LICENSE)
-
-<br/>
-
-[![Live Demo](https://img.shields.io/badge/🌐_Abrir_Conversor-0A0A0A?style=for-the-badge)](https://veo-convertor.veo14269.workers.dev/)
-
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,json,vscode,github,android,windows,linux,apple&perline=6" alt="HTML, CSS, JavaScript, TypeScript, JSON, VS Code, GitHub, Android, Windows, Linux e Mac" />
+  </a>
+  <h1>VEO Image Converter</h1>
+  <p>Conversão de imagens privada, prática e diretamente no seu navegador.</p>
+  <p>
+    <img alt="React" src="https://img.shields.io/badge/React-18-149ECA?logo=react&logoColor=white" />
+    <img alt="Vite" src="https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white" />
+    <img alt="Privacidade local" src="https://img.shields.io/badge/Processamento-100%25%20local-35A878" />
+    <img alt="Licença MIT" src="https://img.shields.io/badge/Licen%C3%A7a-MIT-8B7CF6" />
+    <img alt="GitHub Copilot" src="https://img.shields.io/badge/GitHub%20Copilot-000000?logo=githubcopilot&logoColor=white" />
+  </p>
 </div>
 
----
+## Apresentação
 
-## Sobre
-
-O **VEO Image Converter** é uma aplicação web gratuita que converte e redimensiona imagens **sem enviar nada para nenhum servidor**.  
-Tudo acontece localmente no seu navegador — privado, rápido e seguro.
-
-Arraste um arquivo ou um lote inteiro, escolha o formato de saída e baixe o resultado.
-
----
+O **VEO Image Converter** é uma aplicação web gratuita para converter e redimensionar imagens sem enviá-las a um servidor. Adicione um arquivo ou um lote, escolha PNG, JPG ou JPEG e baixe cada resultado ou um arquivo ZIP.
 
 ## Funcionalidades
 
-- Conversão **100% local** (Canvas + APIs nativas do navegador)
-- Suporte a **lote** (vários arquivos de uma vez)
-- Pré-visualização do original e do resultado
-- **PNG** com transparência preservada
-- **JPG / JPEG** com qualidade ajustável e fundo configurável
-- Redimensionamento opcional (mantém proporção ou tamanho livre)
-- Download individual ou **ZIP** completo
-- Histórico da sessão atual
-- Sanitização de SVG (remove referências externas)
-- Interface responsiva em português brasileiro
+- Conversão local com Canvas e APIs nativas do navegador.
+- Conversão em lote sequencial, sem interromper os demais arquivos quando um falha.
+- Pré-visualização do original e do resultado.
+- PNG com transparência preservada; JPG/JPEG com qualidade ajustável e cor de fundo configurável.
+- Redimensionamento com dimensões personalizadas e proporção opcional.
+- Renomeação e download individual ou em ZIP.
+- Histórico mantido somente durante a sessão atual.
+- Sanitização de SVG, sem carregar referências externas automaticamente.
+- Limites para quantidade, tamanho, dimensões e memória dos arquivos.
+- Interface responsiva em português brasileiro.
 
----
+## Formatos
 
-## Formatos suportados
+**Entrada:** SVG, PNG, JPG, JPEG, WebP, GIF, BMP e AVIF. A decodificação depende do navegador e do dispositivo. GIFs animados são convertidos como um único quadro estático.
 
-| Entrada | Saída |
-|---------|-------|
-| SVG, PNG, JPG, JPEG, WebP, GIF, BMP, AVIF | PNG, JPG, JPEG |
+**Saída:** PNG, JPG e JPEG. JPG e JPEG usam a codificação JPEG do navegador; a diferença é apenas a extensão do arquivo.
 
-> GIFs animados são convertidos como um único quadro estático.
-
-**Limites atuais**  
-- 50 MB por arquivo  
-- Até 50 arquivos por lote  
-- 150 MB de entrada total  
-- 16.384 px por lado / 40 megapixels  
-- Resultados da sessão limitados a 200 MB
-
----
+Limites atuais: 50 MB por arquivo, 50 arquivos e 150 MB de arquivos de entrada por lote, 16.384 px por lado e 40 megapixels por imagem. Os resultados da sessão são limitados a 200 MB. Esses limites protegem a memória do navegador.
 
 ## Tecnologias
 
-<div align="center">
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,ts,json,vscode,github,android,windows,linux,apple&perline=6" alt="HTML, CSS, JavaScript, TypeScript, JSON, VS Code, GitHub, Android, Windows, Linux e Mac" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" /></a>
+</p>
 
-[![Skills](https://skillicons.dev/icons?i=react,vite,ts,html,css,js,vscode,github&perline=8)](https://skillicons.dev)
+O projeto também utiliza React, TSX, Vite, TypeScript, CSS, HTML5, Canvas API e JSZip.
 
-</div>
+## Instalação e execução
 
-Também utiliza: **Canvas API**, **JSZip** e sanitização de SVG.
-
----
-
-## Como usar
-
-1. Acesse o site: [veo-convertor.veo14269.workers.dev](https://veo-convertor.veo14269.workers.dev/)
-2. Arraste as imagens ou clique em **Selecionar imagens**
-3. Escolha o formato de saída (PNG / JPG / JPEG)
-4. (Opcional) Defina largura e altura
-5. Clique em **Converter imagens**
-6. Baixe individualmente ou use **Baixar tudo (.ZIP)**
-
----
-
-## Instalação local
-
-Requisitos: **Node.js 20+** e npm.
+Requisitos: Node.js 20 ou superior e npm.
 
 ```bash
-git clone https://github.com/veo14269-jpg/veo-converdor.git
-cd veo-converdor
+git clone https://github.com/SEU_USUARIO/veo-image-converter.git
+cd veo-image-converter
 npm ci
 npm run dev
 ```
 
-Abra o endereço que o Vite mostrar no terminal.
-
-Para build de produção:
+Abra o endereço local mostrado pelo Vite. Para gerar e testar a versão de produção:
 
 ```bash
+npm test
 npm run build
 npm run preview
 ```
 
----
+## Como converter
 
-## Estrutura do projeto
+1. Arraste imagens para a área de envio ou selecione arquivos no dispositivo.
+2. Escolha PNG, JPG ou JPEG. Para JPEG, ajuste a qualidade e o fundo usado nas áreas transparentes.
+3. Opcionalmente, abra **Redimensionar imagem** para informar largura e altura.
+4. Selecione **Converter imagens**. Os arquivos são processados localmente, um por vez.
+5. Baixe cada imagem individualmente ou escolha **Baixar tudo (.ZIP)**.
+
+## Estrutura
 
 ```text
-public/               → Logo e favicon
-src/components/       → Interface (header, upload, configs, preview)
-src/services/         → Validação e conversão de imagens
-src/styles/           → Estilos globais e responsivos
-src/utils/            → Formatos e downloads
-.github/workflows/    → Deploy no GitHub Pages
+public/                  Identidade visual e favicon
+src/components/          Cabeçalho, envio, configurações, prévias e histórico
+src/services/            Validação, leitura e conversão de imagens
+src/styles/              Estilos globais e componentes responsivos
+src/utils/               Formatos e downloads
+src/test/                Configuração dos testes
+.github/workflows/       Build, testes e publicação no GitHub Pages
 ```
-
----
 
 ## Privacidade
 
-- Nenhum arquivo sai do seu dispositivo
-- Sem backend, sem contas, sem tracking
-- Sem API keys e sem uploads
-- SVGs são sanitizados antes do processamento
+Os arquivos permanecem no dispositivo e são processados pelo navegador. O projeto não possui backend, contas, rastreamento, API keys ou uploads. Recursos referenciados externamente em SVGs são removidos antes do processamento. As fontes da interface podem ser carregadas do Google Fonts; a conversão de imagens continua inteiramente local.
 
----
+## Publicação no GitHub Pages
+
+1. Envie o projeto para um repositório público com a branch principal chamada `main`.
+2. Em **Settings → Pages → Build and deployment**, selecione **GitHub Actions** como fonte.
+3. Envie um commit para `main` ou execute manualmente o workflow **Publicar no GitHub Pages** na aba **Actions**.
+4. Aguarde os jobs de teste, build e deploy. O endereço publicado aparece nas configurações de Pages.
+
+O Vite utiliza caminhos relativos, portanto a aplicação funciona tanto em domínios próprios quanto em repositórios de projeto no Pages.
 
 ## Licença
 
-Distribuído sob a licença **MIT**.  
-Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
-
----
-
-<div align="center">
-
-Feito com ❤️ por [veo14269-jpg](https://github.com/veo14269-jpg)
-
-</div>
+Distribuído sob a licença MIT. Consulte [LICENSE](./LICENSE).
