@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,json,vscode,github,android,windows,linux,apple,cloudflare,claude&perline=7" alt="HTML, CSS, JavaScript, TypeScript, JSON, VS Code, GitHub, Android, Windows, Linux, Mac, Cloudflare e Claude" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,vscode,github,android,windows,linux,apple,cloudflare,claude&perline=6" alt="HTML, CSS, JavaScript, TypeScript, VS Code, GitHub, Android, Windows, Linux, Mac, Cloudflare e Claude" />
   </a>
   <h1>VEO Image Converter</h1>
   <p>Conversão de imagens privada, prática e diretamente no seu navegador.</p>
@@ -41,7 +41,7 @@ Limites atuais: 50 MB por arquivo, 50 arquivos e 150 MB de arquivos de entrada p
 ## Tecnologias
 
 <p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,ts,json,vscode,github,android,windows,linux,apple,cloudflare,claude&perline=7" alt="HTML, CSS, JavaScript, TypeScript, JSON, VS Code, GitHub, Android, Windows, Linux, Mac, Cloudflare e Claude" /></a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,ts,vscode,github,android,windows,linux,apple,cloudflare,claude&perline=6" alt="HTML, CSS, JavaScript, TypeScript, VS Code, GitHub, Android, Windows, Linux, Mac, Cloudflare e Claude" /></a>
 </p>
 <p align="center">
   <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" /></a>
