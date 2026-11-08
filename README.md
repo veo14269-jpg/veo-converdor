@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="./public/logo.svg" width="72" height="72" alt="Logotipo VEO Image Converter" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,json,vscode,github,android,windows,linux,apple&perline=6" alt="HTML, CSS, JavaScript, TypeScript, JSON, VS Code, GitHub, Android, Windows, Linux e Mac" />
+  </a>
   <h1>VEO Image Converter</h1>
   <p>Conversão de imagens privada, prática e diretamente no seu navegador.</p>
   <p>
@@ -7,6 +9,7 @@
     <img alt="Vite" src="https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white" />
     <img alt="Privacidade local" src="https://img.shields.io/badge/Processamento-100%25%20local-35A878" />
     <img alt="Licença MIT" src="https://img.shields.io/badge/Licen%C3%A7a-MIT-8B7CF6" />
+    <img alt="GitHub Copilot" src="https://img.shields.io/badge/GitHub%20Copilot-000000?logo=githubcopilot&logoColor=white" />
   </p>
 </div>
 
@@ -38,10 +41,9 @@ Limites atuais: 50 MB por arquivo, 50 arquivos e 150 MB de arquivos de entrada p
 ## Tecnologias
 
 <p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=github,html,css,js,ts,vscode&perline=6" alt="GitHub, HTML, CSS, JavaScript, TypeScript e Visual Studio Code" /></a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,ts,json,vscode,github,android,windows,linux,apple&perline=6" alt="HTML, CSS, JavaScript, TypeScript, JSON, VS Code, GitHub, Android, Windows, Linux e Mac" /></a>
 </p>
 <p align="center">
-  <a href="https://visualstudio.microsoft.com/"><img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio" /></a>
   <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" /></a>
 </p>
 
